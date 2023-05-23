@@ -8,7 +8,6 @@ Repositorio de distintos docker compose para el curso de Tknika Cloud.
 
 Repositorios:
 
-* Wordpress + mariaDB
 * NextCloud + Postgres
 * phpmyadmin
 
@@ -21,17 +20,14 @@ Repositorios:
 Eliminar versiones previas:
 
 ```bash
-sudo apt-get remove docker docker-engine docker.io containerd run
+sudo apt-get remove docker docker-engine docker.io containerd runc
 ```
 
 Configura el repositorio de apt:
 
 ```bash
 sudo apt-get update
-sudo apt-get install \
-    ca-certificates \
-    curl \
-    gnupg
+sudo apt-get install ca-certificates curl gnupg
 ```
 
 ```bash
